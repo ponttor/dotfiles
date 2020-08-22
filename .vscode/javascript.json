@@ -1,0 +1,42 @@
+{
+  "Print to console": {
+    "prefix": "log",
+    "body": [
+      "console.log('$1');",
+      "$2"
+    ],
+    "description": "Log output to console"
+  },
+  "React ex": {
+    "prefix": "rrr",
+    "body": [
+      "import React from 'react';",
+      "import PropTypes from 'prop-types';",
+      "import Typography from '@materail-ui/core/Typography';",
+      "import { useTranslation } from 'react-i18next';",
+      "import useStyles from './useStyles';",
+      "",
+      "const $1 = props => {",
+      "  const classes = useStyles();",
+      "  const { t } = useTranslation();",
+      "  return (<></>);",
+      "};",
+      "",
+      "$1.defatulProps = {};",
+      "",
+      "$1.propTypes = {};",
+      "",
+      "export default $1;",
+      ""
+    ]
+  },
+  "Fast import export index": {
+    "prefix": "i",
+    "body": [
+      "import $1 from './$1';",
+      "",
+      "export default $1;",
+      ""
+    ]
+  }
+}

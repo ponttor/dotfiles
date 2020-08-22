@@ -1,0 +1,16 @@
+{
+  "editor.formatOnSave": false,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "editor.tokenColorCustomizations": "andradei.minimal-colors",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "workbench.colorCustomizations": {
+    "editorWhitespace.foreground": "#9932cc"
+  }
+}
